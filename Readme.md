@@ -25,14 +25,12 @@ Two modes to reset machines to a clean, enterprise-friendly state.
 
 ## One-liners
 
-### Soft
 ```bash
+Soft
 curl -fsSL https://raw.githubusercontent.com/RooKye/zsh-cleaner/main/install.sh | sudo bash -s -- --soft
 
 Hard 
-
 curl -fsSL https://raw.githubusercontent.com/RooKye/zsh-cleaner/main/install.sh | sudo bash -s -- --hard
 
 Hard non-interactive
-
 curl -fsSL https://raw.githubusercontent.com/RooKye/zsh-cleaner/main/purge.sh | sudo ASSUME_YES=1 bash -s -- --hard
