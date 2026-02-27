@@ -29,10 +29,10 @@ Two modes to reset machines to a clean, enterprise-friendly state.
 ```bash
 curl -fsSL https://raw.githubusercontent.com/RooKye/zsh-cleaner/main/install.sh | sudo bash -s -- --soft
 
-### Hard 
+Hard 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/RooKye/zsh-cleaner/main/install.sh | sudo bash -s -- --hard
 
-### Hard non-interactive
+Hard non-interactive
 ``bash 
 curl -fsSL https://raw.githubusercontent.com/RooKye/zsh-cleaner/main/purge.sh | sudo ASSUME_YES=1 bash -s -- --hard
